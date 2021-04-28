@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cp.otp_parking_app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconapp"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.cp.otp_parking_app.LoginActivity" />
+        <activity android:name="com.example.cp.otp_parking_app.View_Parking" />
+        <activity android:name="com.example.cp.otp_parking_app.Main_" />
+        <activity android:name="com.example.cp.otp_parking_app.Slot_Activity" />
+        <activity android:name="com.example.cp.otp_parking_app.View_Otp" />
+        <activity android:name="com.example.cp.otp_parking_app.Register" />
+        <activity android:name="com.example.cp.otp_parking_app.LoginSelection" />
+        <activity android:name="com.example.cp.otp_parking_app.ParkingLotLogin" />
+        <activity android:name="com.example.cp.otp_parking_app.ParkingLot_Home" />
+        <activity android:name="com.example.cp.otp_parking_app.PLViewDetails" />
+        <activity android:name="com.example.cp.otp_parking_app.TransactionLog" />
+        <activity android:name="com.example.cp.otp_parking_app.AddBalance" />
+        <activity android:name="com.example.cp.otp_parking_app.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.cp.otp_parking_app.Map" />
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyDAiXt6PR4GrN4ajdvYSxELr0LrRVoxtm8" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name="com.example.cp.otp_parking_app.Feedback" />
+        <activity android:name="com.example.cp.otp_parking_app.CheckOtp"></activity>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+    </application>
+
+</manifest>

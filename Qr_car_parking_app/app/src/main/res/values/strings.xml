@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SPARK</string>
+
+    <string-array name="sortingarray">
+        <item>Distance</item>
+        <item>Rating</item>
+        <item>Number of Slots</item>
+    </string-array>
+
+</resources>

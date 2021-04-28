@@ -1,0 +1,5 @@
+103.21.58.192
+db/username: otp_parking
+password : Password@123
+
+http://demoproject.in/otpparking_web/AdminLogin.aspx
